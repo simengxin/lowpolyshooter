@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6497641358568468501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5391731554003983512}
+  - component: {fileID: 8665540583737005285}
+  m_Layer: 0
+  m_Name: Handgun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5391731554003983512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497641358568468501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8665540583737005285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497641358568468501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b6a055a22984b56809fa785d9e4784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useItOnStart: 1
+  animatorOverride: {fileID: 22100000, guid: 0302bc0f908db480aa85286d9824687b, type: 2}
+  canReflected: 0
+  bulletObj: {fileID: 7195308260665177091, guid: b486b9496ae1148348879921c15a15cf,
+    type: 3}
+  reloadPerShoot: 0
+  reloadTime: 0.5
+  reloadSound: {fileID: 0}
+  damage: 35
+  bulletSpeed: 35
+  bulletForce: 300
+  useExplosion: 0
+  gunID: Handgun
+  unlimitedBullet: 1
+  maxBullet: 50
+  rate: 0.5
+  soundFire: {fileID: 8300000, guid: d10744c9d05a74908b94eb2780cd8518, type: 3}
+  soundFireVolume: 0.5
+  maxBulletPerShoot: 1
+  isSpreadBullet: 0
+  muzzleFX: {fileID: 0}
+  recoildCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.013950348
+      value: 0.005882263
+      inSlope: 7.1016273
+      outSlope: 7.1016273
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.14806291
+      value: 0.95829976
+      inSlope: 1.9861953
+      outSlope: 1.9861953
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.35682294
+      value: 0.30504027
+      inSlope: -1.7984668
+      outSlope: -1.7984668
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9838867
+      value: 0.011764526
+      inSlope: -0.46769685
+      outSlope: -0.46769685
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  recoilDuration: 0.2
+  recoilMaxRotation: 15

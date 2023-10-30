@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemy Crounch Throw
+  m_Controller: {fileID: 9100000, guid: ba430064bb1d44dc28402018f30bf88b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6ee35ffb1ae094bfeba630a41cc03c4d, type: 2}
+    m_OverrideClip: {fileID: 5424260442738908926, guid: 7e0bb093d09a74745a861f991a24f0e5,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: b88c2bd1828c84f169f3a7a16b01c936, type: 2}
+    m_OverrideClip: {fileID: -4630339522487117836, guid: e6a53f11d41134683a65f62054d7a3f9,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 280aadfba6471452e84fa931d64d282d, type: 2}
+    m_OverrideClip: {fileID: 8017390324079358001, guid: cdcdfc90374ea440a9f8b4ff50ad9929,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: d399f01afdfd9476b9369d3c21815bdc, type: 2}
+    m_OverrideClip: {fileID: -1177976266813678910, guid: 7e0bb093d09a74745a861f991a24f0e5,
+      type: 3}

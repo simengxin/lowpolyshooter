@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6497641358568468501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5391731554003983512}
+  - component: {fileID: 8665540583737005285}
+  m_Layer: 0
+  m_Name: Sniper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5391731554003983512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497641358568468501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8665540583737005285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497641358568468501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b6a055a22984b56809fa785d9e4784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunID: Sniper
+  useItOnStart: 0
+  ranking: 6
+  animatorOverride: {fileID: 22100000, guid: 31b090fe4c2aa4b118ed2b0033ddebdb, type: 2}
+  canReflected: 0
+  bulletObj: {fileID: 7195308260665177091, guid: b486b9496ae1148348879921c15a15cf,
+    type: 3}
+  reloadPerShoot: 0
+  reloadTime: 0.5
+  reloadSound: {fileID: 0}
+  damage: 100
+  bulletSpeed: 60
+  bulletForce: 300
+  useExplosion: 0
+  unlimitedBullet: 0
+  maxBullet: 20
+  rate: 1
+  soundFire: {fileID: 8300000, guid: 423b2dc678e4a4b1ba2f12ab34fbccdc, type: 3}
+  soundFireVolume: 0.5
+  maxBulletPerShoot: 1
+  isSpreadBullet: 0
+  muzzleFX: {fileID: 0}
+  recoildCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 4.039691
+      outSlope: 4.039691
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.23283261
+      value: 0.9405718
+      inSlope: -3.3632934
+      outSlope: -3.3632934
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.03982303
+    - serializedVersion: 3
+      time: 0.96030045
+      value: -0.003921628
+      inSlope: -0.5443478
+      outSlope: -0.5443478
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06932159
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  recoilDuration: 0.3
+  recoilMaxRotation: 5

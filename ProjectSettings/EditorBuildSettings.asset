@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/HomeMenu.unity
+    guid: 1cb17be4a96be461a881a2df3fa9919f
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Demo.unity
+    guid: b51add45465b8491ea879cf434dacdb4
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 1.unity
+    guid: 3f66a6774900e4ee49e6525c75249507
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 2.unity
+    guid: d8d5647d959bc46b2952515e3d7ef376
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 3.unity
+    guid: 79b9bd2ad9c234949b841a57b741262f
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 4.unity
+    guid: 84bf4f37c25d641879df2b071acb26ea
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 5.unity
+    guid: 06566bcfaa13d4cff8f8358a110f73c1
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 6.unity
+    guid: df4b4c986e02e42cb98d9de3f3d1a158
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 7.unity
+    guid: ca38f935fab9941598c6553ff5d067ef
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 8.unity
+    guid: c1a96b10f2c094139b0d0a751ad13a8b
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 9.unity
+    guid: f404113cbbf03448aa776ae5dfb6e84d
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 10.unity
+    guid: 62d502223ca6e43d4b6370c2abf2d32a
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 11.unity
+    guid: 70ee46fd25f7e44b9a56430e49cbcb37
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 12.unity
+    guid: 73ed762796d544892bcb0c7a9a7b8fab
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 13.unity
+    guid: 082915f4c5947413389c1329683a6fdf
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 14.unity
+    guid: d19e62f864d354469a733de6c0fd651c
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 15.unity
+    guid: fe8c5b6ecc50743ad95b5028665075b4
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 16.unity
+    guid: c5ba4e4639ce3490e8e9d55d2ec7e5df
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 17.unity
+    guid: 04183b8782f5042ceb5b5eae22c74e7d
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 18.unity
+    guid: b7dcd9bc08d204a4aad7cb7eb0ae22b9
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 19.unity
+    guid: 7c14cf54892294354aded3e85a97ee3d
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 20.unity
+    guid: 3cc2096cf44604410ba247e80313fba5
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 21.unity
+    guid: 8f9d76068aece4aa6a7c6fa1fe35d8ed
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 22.unity
+    guid: ca4ffbb9910ab438b971f793d110b041
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 23.unity
+    guid: ad6e266044e304461b8da196f5028b5f
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 24.unity
+    guid: 4c47c12177fe644d39a401be21eebf3d
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 25.unity
+    guid: bea687cd0d63842278d310177af62c97
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 26.unity
+    guid: 4dc06c9740e404ccb88d10b8a832a5cc
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 27.unity
+    guid: dec04414037cc4d39b399454e1354c62
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 28.unity
+    guid: 4fa5994a4776d4a5b907a2b1b6917d83
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 29.unity
+    guid: e853c0f3410d94358b4e80d69146fefe
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 30.unity
+    guid: 995cf6fd8e985414fb66405a093947c3
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 31.unity
+    guid: 6f43999b5ae94413e89bd77f5794ddc6
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 32.unity
+    guid: 379e3709ea4304c579b83c68268c7b95
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 33.unity
+    guid: b0809e61172074f5cb9a614ae8027e1d
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 34.unity
+    guid: e9f03097d3a354c7090fbce04842dcd2
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 35.unity
+    guid: 651f9bb54f2fb44668fd1aec019ecfc5
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 36.unity
+    guid: 626f3265c7a7546e5b845a067fef3418
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 37.unity
+    guid: 5a4504c98c2d34e9bb9e3c0c5d10332c
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 38.unity
+    guid: e24c17b87003e4ca896f6f86dfb86487
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 39.unity
+    guid: 57419cffadbd04e15b6ae242a985c222
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 40.unity
+    guid: 050ac07103b394881937c89e51493c0e
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 41.unity
+    guid: 445ca51cebeca4fc1907570e9ea2ed3f
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 42.unity
+    guid: b447ca7fe09d9474799667bb915a18e8
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 43.unity
+    guid: 5a35633f23ad744d8af83b0101bb9227
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 44.unity
+    guid: 49d0b348225654056a559f095446392f
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 45.unity
+    guid: 9918ad4cb4a0341ad94142e08da4bbcc
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 46.unity
+    guid: 0b6012728f4d546ed8bbe82fc648da52
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 47.unity
+    guid: 59bf2658b58924d2db1ddbdc899c2ba3
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 48.unity
+    guid: d33ae0846ffd04527b4496d03d6292e6
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 49.unity
+    guid: 9d616fcc02d224776ae377798fe4607f
+  - enabled: 1
+    path: Assets/ShootEmUp/Scene/Levels/Level 50.unity
+    guid: a1a3293300a574d788e1968ff8ab69c3
+  m_configObjects: {}
